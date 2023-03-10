@@ -44,6 +44,9 @@ spec:
             - name: vpn-tcp
               containerPort: {{ .Values.openvpn.ports.tcp }}
               protocol: TCP
+            - name: vpn-udp
+              containerPort: {{ .Values.openvpn.ports.udp }}
+              protocol: UDP
           livenessProbe:
             initialDelaySeconds: 100
             timeoutSeconds: 5

@@ -13,6 +13,8 @@ openvpn:
     gui: 944
     # -- VPN TCP port
     tcp: 9443
+    # -- VPN UDP port
+    udp: 1194
   # -- Config settings to apply to the openvpn-as server
   config:
     vpn.client.routing.reroute_gw: "false"
