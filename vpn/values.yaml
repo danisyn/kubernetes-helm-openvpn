@@ -86,7 +86,7 @@ service:
   tcp:
     enabled: true
   udp:
-    enabled: true
+    enabled: false
   admin:
     # -- Kubernetes Service type for Admin GUI
     type: ClusterIP
