@@ -29,6 +29,7 @@ spec:
         paths:
           - path: "/"
             backend:
-              serviceName: {{ $fullName }}-gui
-              servicePort: {{ .Values.openvpn.ports.gui }}
+              name: {{ $fullName }}-gui
+              port:
+                number: {{ .Values.openvpn.ports.gui }}
   {{- end }}
