@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  open-vpn:
+  - apiVersion: v2
+    appVersion: version-2.8.6-916f8e7d-ubuntu18
+    created: "2023-03-10T11:47:57.794014993+01:00"
+    description: Kubernetes helm chart for OpenVPN
+    digest: 71e2bd427f345436834e3e63fce063c20f8570e286da4289da825c0c6b1242f2
+    name: open-vpn
+    urls:
+    - https://danisyn.github.io/kubernetes-helm-openvpn/vpn.tgz/vpn.tgz
+    version: 0.0.1
+generated: "2023-03-10T11:47:57.793356587+01:00"
