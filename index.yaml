@@ -8,6 +8,6 @@ entries:
     digest: 71e2bd427f345436834e3e63fce063c20f8570e286da4289da825c0c6b1242f2
     name: open-vpn
     urls:
-    - https://danisyn.github.io/kubernetes-helm-openvpn/vpn.tgz/vpn.tgz
+    - https://danisyn.github.io/kubernetes-helm-openvpn/vpn.tgz
     version: 0.0.1
 generated: "2023-03-10T11:47:57.793356587+01:00"
