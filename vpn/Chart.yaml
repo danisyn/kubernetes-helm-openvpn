@@ -1,0 +1,5 @@
+apiVersion: v2
+appVersion: "version-2.8.6-916f8e7d-ubuntu18"
+description: "Kubernetes helm chart for OpenVPN"
+name: open-vpn
+version: 0.0.1
